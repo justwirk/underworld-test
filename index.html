@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Underworld Test</title>
+<link rel="apple-touch-icon" href="icon180.png">
+<style>
+  :root {
+    --ink: #0f0c10;
+    --wine: #8e2138;
+    --wine-deep: #38101a;
+    --brass: #dbb05c;
+    --parchment: #eddeba;
+    --muted: #b8a98c;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: radial-gradient(circle at 50% 0%, var(--wine) 0%, var(--wine-deep) 45%, var(--ink) 100%);
+    color: var(--parchment);
+    font-family: "Baskerville", "Georgia", serif;
+    display: flex;
+    justify-content: center;
+    padding: 32px 16px 48px;
+  }
+  main { width: 100%; max-width: 440px; text-align: center; }
+  img.icon { width: 120px; height: 120px; border-radius: 27px; box-shadow: 0 10px 30px rgba(0,0,0,.6); }
+  h1 { font-size: 34px; letter-spacing: 2px; margin: 22px 0 2px; }
+  .sub { color: var(--brass); font-style: italic; font-size: 19px; margin: 0 0 6px; }
+  .build { color: var(--muted); font-size: 14px; margin: 0 0 28px; }
+  a.install {
+    display: block;
+    background: linear-gradient(#f8d688, var(--brass), #80602a);
+    color: var(--ink);
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,.45);
+  }
+  ol { text-align: left; line-height: 1.55; font-size: 16px; padding-left: 22px; margin: 28px 0 0; }
+  li { margin-bottom: 10px; }
+  .note {
+    margin-top: 24px;
+    text-align: left;
+    font-size: 14px;
+    color: var(--muted);
+    background: rgba(0,0,0,.35);
+    border: 1px solid rgba(219,176,92,.35);
+    border-radius: 12px;
+    padding: 14px 16px;
+    line-height: 1.5;
+  }
+  b { color: var(--parchment); }
+</style>
+</head>
+<body>
+<main>
+  <img class="icon" src="icon512.png" alt="Underworld simgesi">
+  <h1>UNDERWORLD</h1>
+  <p class="sub">Blood &amp; Legacy</p>
+  <p class="build">Test sürümü · 1.0 (build 3)</p>
+
+  <a class="install" href="itms-services://?action=download-manifest&amp;url=https://justwirk.github.io/underworld-test/manifest.plist">Yükle</a>
+
+  <ol>
+    <li>Bu sayfayı <b>iPhone'da Safari</b> ile aç (Chrome'da çalışmaz).</li>
+    <li><b>Yükle</b>'ye bas, çıkan pencerede yine <b>Yükle</b>'yi seç.</li>
+    <li>Ana ekrana dön: Underworld simgesi iner, bitince aç ve oyna.</li>
+  </ol>
+
+  <div class="note">
+    Bu sürüm yalnızca önceden kaydedilen iPhone'lara kurulabilir ve <b>iOS 27</b> ister.
+    "Uygulama yüklenemiyor" uyarısı alırsan iPhone'un listede değildir ya da iOS sürümü eskidir; oyunun geliştiricisine haber ver.
+  </div>
+</main>
+</body>
+</html>
